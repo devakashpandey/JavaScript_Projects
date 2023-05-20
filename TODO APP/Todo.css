@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: tahoma;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background: #3498db;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box {
+  background: white;
+  min-height: 600px;
+  width: 600px;
+  border-radius: 5px;
+}
